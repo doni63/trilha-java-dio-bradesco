@@ -1,5 +1,8 @@
 public class TiposVariaveis {
     public static void main(String[] args) throws Exception {
+        String nome = "Donizeti";
+        String sobreNome = "Batista";
+
         int numero1 = 10;
         numero1 = 12;
 
@@ -15,6 +18,8 @@ public class TiposVariaveis {
       boolean teste = resultado == 12;
 
       System.out.println("O valor de resultado é 2: " + teste);
+
+      System.out.println(nome + " " + sobreNome);
 
 
     }
