@@ -19,7 +19,9 @@ public class Principal {
        */
 
        tv.ligarTv();
-       tv.desligarTv();
+       //tv.desligarTv();
+       
+       tv.mudarCanal(38);
 
     }
 }

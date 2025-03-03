@@ -45,6 +45,12 @@ public class SmartTv {
         volume--;
     }
 
+    public void mudarCanal(int canal) {
+        this.canal = canal;
+        
+        System.out.println("Canal atual: " + canal);
+    }
+
     public void aumentarCanal() {
         canal++;
     }
